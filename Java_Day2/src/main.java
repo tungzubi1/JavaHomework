@@ -4,7 +4,6 @@ public class main {
     public static void main(String[] args) {
         System.out.println("Bài 1");
         System.out.println("Nhập tháng: ");
-        Scanner sc = new Scanner(System.in);
         int t = (new Scanner(System.in)).nextInt();
         bai1 dem = new bai1();
         dem.demngay1(t);
