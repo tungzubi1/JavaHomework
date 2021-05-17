@@ -14,6 +14,5 @@ public class main {
         System.out.println("Bài 3");
         bai3 check = new bai3();
         check.checktamgiac();
-
         }
     }
