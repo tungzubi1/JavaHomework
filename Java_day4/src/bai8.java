@@ -7,9 +7,10 @@ public class bai8 {
         Scanner sc = new Scanner(System.in);
         System.out.print("Nhập 1 chuỗi bất kỳ: ");
         String str = sc.nextLine();
-        String strauth = str.replaceAll("\\s+"," ");
+        String strauth1 = str.replaceAll("\\s+"," ");
+        String strauth2 = strauth1.trim();
         while (b >= 0 && b <= str.length()){
-            a = strauth.indexOf(" ", b);
+            a = strauth2.indexOf(" ", b);
             if(a==-1){
                 b=a;
             }else {
@@ -17,7 +18,7 @@ public class bai8 {
                 loop += 1;
                 c = loop + 1;
             }
-        } if (loop > 0) System.out.println("Chuỗi '"+strauth+"' có "+c+" từ");
+        } if (loop > 0) System.out.println("Chuỗi '"+strauth2+"' có "+c+" từ");
         else System.out.println("Chuỗi chỉ có 1 từ hoặc không có từ nào");
     }
 }
