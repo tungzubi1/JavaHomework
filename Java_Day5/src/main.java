@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class main {
     public static void main(String[] args) {
-        bai1();
+//        bai1();
         bai2();
     }
 
@@ -62,14 +62,14 @@ public class main {
         System.out.println("Tìm kiếm học sinh: ");
         String str1 = sc.nextLine();
         for(int j = 0; j < str.length; j++){
-            if(str[j]==str1){
+            if(str[j].equalsIgnoreCase(str1)){
             count++;
             }
         }
-        System.out.println("Trong lớp có "+count+" bạn tên "+str1+" và ở số thứ tự ");
+        System.out.print("Trong lớp có "+count+" bạn tên "+str1+" và ở số thứ tự ");
         for(int j=0; j < str.length; j++){
-            if(str[j]==str1){
-                System.out.println(j+"");
+            if(str[j].equalsIgnoreCase(str1)){
+                System.out.print((j+1)+", ");
             }
         }
     }
