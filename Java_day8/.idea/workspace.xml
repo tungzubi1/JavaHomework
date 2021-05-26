@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="03944e15-5678-4a5d-83a6-2ccb907e9e07" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../btvn/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btvn/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btvn/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btvn/btvn.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btvn/out/production/btvn/main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btvn/src/main.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1t4unNvWJs8MbegPILUoOwiV7Lv" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="03944e15-5678-4a5d-83a6-2ccb907e9e07" name="Default Changelist" comment="" />
+      <created>1622040849963</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1622040849963</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>
