@@ -10,11 +10,10 @@ public class bai2 {
             str1 = sc.nextLine();
             if (str1.length() < 10) {
                 System.out.println("Mật khẩu yếu.");
-                } else if (str1.matches(pattern) == false) {
+            } else if (str1.matches(pattern) == false) {
                 System.out.println("Chưa đủ mạnh.");
-            }
-            else check = true;
+            } else check = true;
         }
-            System.out.println("Xịn");
+        System.out.println("Xịn");
     }
 }

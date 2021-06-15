@@ -4,13 +4,23 @@ import java.util.Scanner;
 public class main {
 
     public static void main(String[] args) throws MonthCheckingException {
-        Scanner sc = new Scanner(System.in);
         //bai1
-        System.out.println("Bài 1.");
-        String str = "You Only Live Once. But if You do it right. once is Enough";
-        NoOfUpperCase(str);
-        System.out.println(capitalize(str));
 
+        System.out.println("Bài tập số 1: ");
+        String str = "You Only Live Once. But if You do it right. once is Enough";
+        System.out.println(str);
+        bai1 ex_01 = new bai1();
+        int count = ex_01.count(str);
+        System.out.println("Chuỗi trên có " + count + " ký tự in hoa");
+        String str2 = "";
+        str2 = ex_01.Uppercase(str);
+        System.out.println("Chuỗi viết hoa toàn bộ chữ cái đầu: \n" + str2);
+        String str3 = "";
+        str3 = ex_01.Uppercase2(str);
+        System.out.println("Chuỗi viết hoa chữ cái đầu hoặc sau dấu chấm: \n" + str3);
+
+
+        Scanner sc = new Scanner(System.in);
         //bai2
         System.out.println("Bài 2.");
         bai2 pass = new bai2();
@@ -29,33 +39,5 @@ public class main {
             throw new MonthCheckingException("Tháng phải nhập số vào. ");
         }
     }
-
-    public static void NoOfUpperCase(String str) {
-        char ch;
-        int chuthuong = 0, chuhoa = 0;
-        for (int i = 0; i < str.length(); i++) {
-            ch = str.charAt(i);
-            int asciivalue = (int) ch;
-            if (asciivalue >= 65 && asciivalue <= 90) {
-                chuhoa++;
-            } else if (asciivalue >= 97 && asciivalue <= 122) {
-                chuthuong++;
-            }
-        }
-        System.out.println("Số chữ cái thường : " + chuthuong);
-        System.out.println("Số chữ cái hoa : " + chuhoa);
-    }
-
-    public static String capitalize(String string) {
-        final int sl = string.length();
-        final StringBuilder sb = new StringBuilder(sl);
-        boolean lod = false;
-        for (int s = 0; s < sl; s++) {
-            final int cp = string.codePointAt(s);
-            sb.appendCodePoint(lod ? Character.toLowerCase(cp) : Character.toUpperCase(cp));
-            lod = Character.isLetterOrDigit(cp);
-            if (!Character.isBmpCodePoint(cp)) s++;
-        }
-        return sb.toString();
-    }
 }
+

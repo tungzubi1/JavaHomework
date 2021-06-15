@@ -4,7 +4,7 @@ public class MonthCheckingException extends Exception {
     }
 
     @Override
-    public  String getMessage(){
+    public String getMessage() {
         return "Lỗi nhập vào 1 tháng: " + super.getMessage();
     }
 }
