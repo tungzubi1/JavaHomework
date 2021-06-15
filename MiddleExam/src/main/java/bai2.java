@@ -9,10 +9,9 @@ public class bai2 {
             System.out.println("Nhập mật khẩu của bạn.");
             str1 = sc.nextLine();
             if (str1.length() < 10) {
-                if (str1.matches(pattern) == true) {
-                    System.out.println("Chưa đủ mạnh.");
-                } else
-                    System.out.println("Mật khẩu yếu.");
+                System.out.println("Mật khẩu yếu.");
+                } else if (str1.matches(pattern) == false) {
+                System.out.println("Chưa đủ mạnh.");
             }
             else check = true;
         }
