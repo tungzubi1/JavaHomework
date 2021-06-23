@@ -1,5 +1,6 @@
 import org.junit.Assert;
 import org.junit.Test;
+import static org.assertj.core.api.Java6Assertions.assertThat;
 
 public class Execute {
     Script ex = new Script();
@@ -57,5 +58,14 @@ public class Execute {
         Assert.assertSame(str,clonestr);
         Assert.assertNotSame(clonestr,str2);
 
+    }
+//1.6.2021
+    @Test
+    public void CheckSDT(){
+        String SDT = "0946899233";
+
+        assertThat(SDT).startsWith("0")
+                        .hasSize(10)
+                .containsOnlyDigits();
     }
 }
